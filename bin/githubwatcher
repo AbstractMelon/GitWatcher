@@ -1,0 +1,10 @@
+const { stopWatching } = require('../src/index');
+
+console.log('Starting GitHub watcher...');
+console.log('Press Ctrl + C to stop.');
+
+process.on('SIGINT', () => {
+    console.log('\nStopping GitHub watcher...');
+    stopWatching();
+    process.exit(0);
+});

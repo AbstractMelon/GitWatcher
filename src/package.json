@@ -1,0 +1,22 @@
+{
+    "name": "githubwatcher",
+    "version": "0.0.6",
+    "description": "Package to automaticly pull when it detects changes on the master branch, made for servers",
+    "main": "index.js",
+    "scripts": {
+      "test": "cd ../test/ && node test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Abstractmelon/gitwatcher.git"
+    },
+    "keywords": [
+      "gitwatcher"
+    ],
+    "author": "Abstractmelon",
+    "license": "GNU v3",
+    "bugs": {
+      "url": "https://github.com/Abstractmelon/gitwatcher/issues"
+    },
+    "homepage": "https://github.com/Abstractmelon/gitwatcher#readme"
+  }

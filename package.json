@@ -1,0 +1,19 @@
+{
+  "name": "gitwatcher",
+  "version": "1.0.0",
+  "description": "A program that watches github repos then git-pull's when the repo updates",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "octokit": "^4.0.2"
+  }
+}
